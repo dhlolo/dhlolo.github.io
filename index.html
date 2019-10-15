@@ -229,6 +229,256 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://dhlolo.github.io/blog/2019/10/15/记一次面试中的compose/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Lolo Hou">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/blog/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="DHlolo的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/blog/2019/10/15/记一次面试中的compose/" itemprop="url">记一次面试中的compose</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-10-15T22:59:23+08:00">
+                2019-10-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Day 180？:<br>    来趣头条了6个多月，技术的成长很多，最近项目遇到瓶颈，另外RN的很多瓶颈越来越多，开发app变得非常掣肘，业务线这边最资深的都想转到H5了。后端混乱的调用关系；能一个需求一下重构2k行+的全量业务需求；每次上线前都能测出好几个版本前问题的让人心惊肉跳的回归测试；还有感觉无奈也不敢相信我们的领导。</p>
+<pre><code>最近参加了一些前端的面试，喜马拉雅，爽了的淘集集，CLPS，还有两个小公司，深感前端领域水平的参差不齐。本来coding的根本就是共同的，面试的问题拘泥于水平垂直居中，react-diff算法，手写compose和debounce，浏览器输入网址到显示网页过程，redux的中间件，304错误码，缓存机制，js的闭包等等基础问题，确实是要扎实的功底。
+
+今天去一个Oriente的公司，前端大佬问那个手写一个
+compose(a, b, c)(x) =&gt; a(b(c(x)))：
+const compose = (...args) =&gt; (x) =&gt; {
+    return args.reduce((res, item) =&gt; {
+        return item(res);
+    }, x)
+}
+搞了半天说思路都错了。。。我愣是没看出来，弄得贼尴尬，回来浏览器一跑。。。这年头，水浅王八多。。
+![](check_one_job_review.jpeg)</code></pre>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://dhlolo.github.io/blog/2019/07/02/Roc/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Lolo Hou">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/blog/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="DHlolo的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/blog/2019/07/02/Roc/" itemprop="url">Roc</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-02T22:21:35+08:00">
+                2019-07-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Day 60？:<br>    前一阵没什么功夫写博客。在新公司待了2个多月，在接触RN的过程中，碰到需要使用原生的Recycle类组件来解决RN在首页具有大图的长列表快速滑动时，node服务和原生通讯慢的问题。在这个问题的背景下，业务团队需要频繁的进行布局样式微调和各种ABTest，而js这边的flex式布局要在IOS和Android原生两边分别实现，</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://dhlolo.github.io/blog/2019/06/11/xzz/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -623,7 +873,7 @@
               
                 <a href="/blog/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
